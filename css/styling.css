@@ -1,0 +1,46 @@
+body {
+    background-color: #908db8;
+    color: #fff;
+}
+
+#main-nav {
+    border-bottom: 3px solid #333;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url(../img/images\ \(41\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#home-section .darkoverlay {
+background-color: rgba(0, 0, 0, 0.8);
+width: 100%;
+min-height: 700px;
+}
+
+
+#home-section .home-inner {
+    padding-top: 130px;
+}
+
+#home-section .fa-solid {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#about-section .fa-solid {
+    background-color: #908db8;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
